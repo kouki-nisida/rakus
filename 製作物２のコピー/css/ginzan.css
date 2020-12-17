@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.top-left{
+    color: white;
+    background-image: url(../img/ginzan4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    height: 40vh;
+    display: flex;
+}
+.top-left ul{
+    display: flex;
+    margin-left: auto;
+    padding: 20px 30px 0 0;;
+}
+.top-left li{
+    list-style: none;
+    padding: 5px 0;
+    
+    
+    
+    
+}
+.top-left h1{
+    padding:10px;
+    margin-left: 50px;
+}
+.top-left a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-right:20px ;
+}
+.top-left li :hover{
+    opacity: .7;
+    border-bottom: 1px solid white;
+
+}
+.main-1{
+    width: 80%;
+    margin: 0 auto;
+}
+.main-1 h1{
+    border-bottom: solid 1px #cccccc;
+    padding:10px 0;
+    margin-top:20px
+
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.top-right img{
+    object-fit: cover;
+    width:400px;
+    padding-top:20px ;
+}
+.onsen {
+    width:60%;
+}
+.onsen p{
+    padding-right: 50px;
+}
+.onsen h2{
+    padding:20px 0;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.grid li{
+    list-style: none;
+}
+.grid img{
+    height: 200px;
+    width:375px;
+    object-fit: cover;
+}
